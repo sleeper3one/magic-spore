@@ -1,0 +1,37 @@
+#footer {
+    width: 1110px;
+    max-width: 100%;
+    margin: auto;
+    background: #DECBB4;
+    .topbutton {
+        background-color: #aa7638;
+        border-radius: 50px;
+        height: 50px;
+        width: 50px;
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        z-index: 1;
+        display: none;
+        text-align: center;
+        i {
+            line-height: 50px;
+            font-size: 24px;
+            color: #fff;
+            margin: auto;
+        }
+    }
+    ul {
+        margin: auto;
+        padding-inline-start: 0px;
+        li {
+            align-self: center;
+            list-style-type: none;
+            padding: 10px;
+            .fa {
+                text-decoration: none;
+                color: #aa7638;
+            }
+        }
+    }
+}

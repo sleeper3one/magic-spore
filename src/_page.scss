@@ -1,0 +1,87 @@
+.mainContent {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    max-width: 1110px;
+    .centerContent {
+        .woocommerce {
+            .col-1 {
+                max-width: 100%;
+                margin-left: 20px;
+            }
+            .col-2 {
+                max-width: 100%;
+                margin-right: 20px;
+            }
+            .col2-set {
+                margin-bottom: 60px;
+                margin-top: 60px;
+            }
+            button.button.alt {
+                background-color: #aa7638;
+            }
+            form .form-row textarea {
+                height: 20em;
+            }
+            form .show-password-input {
+                top: 0.2em;
+                right: 1.5 em;
+            }
+            .woocommerce-form-login .woocommerce-form-login__submit {
+                background-color: #aa7638;
+                color: #fff;
+            }
+            .woocommerce-message {
+                border-top-color: #aa7638;
+            }
+            a.button.alt {
+                background-color: #aa7638;
+            }
+            .form-row {
+                display: block;
+            }
+            .woocommerce-info {
+                border-top-color: #DECBB4;
+            }
+            .woocommerce-info::before {
+                color: #aa7638;
+            }
+            .woocommerce-MyAccount-navigation {
+                ul {
+                    li {
+                        list-style-type: none;
+                        height: 30px;
+                        width: 150px;
+                        background-color: #aa7638;
+                        border-top: 1px solid #fff;
+                        text-align: center;
+                    }
+                    a {
+                        color: #fff;
+                        text-decoration: none;
+                        line-height: 30px;
+                        min-height: 30px;
+                        min-width: 150px;
+                    }
+                    li :hover {
+                        font-weight: 900;
+                    }
+                }
+            }
+        }
+    }
+    .textContent {
+        width: 100%;
+        max-width: 1110px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        p {
+            font-size: 1.6rem;
+            padding: 20px;
+        }
+    }
+}
